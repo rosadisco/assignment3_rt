@@ -1,0 +1,82 @@
+h1{
+  font-weight: bolder;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+h2{
+  color: #033048;
+}
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0efef;
+  font-family: sans-serif;
+  color: #606161;
+}
+
+.Top{
+  background-color: #033048;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+
+nav ul li{
+  color: yellow;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+main{
+  padding: 0 5%;
+  width: 60%
+}
+
+img{
+  width: 100%;
+}
+
+.Big{
+  font-size: 3rem;
+}
+
+.text{
+  display: flex;
+}
+
+p{
+  font-weight: lighter;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+  align-self: flex-end;
+}
+
+.link{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+aside{
+  width: 30%;
+}
+
+header, footer {
+  width: 100%;
+}
+
+header, footer, main, aside {
+  float: left;
+}
+
+.Categories li{
+
+}
